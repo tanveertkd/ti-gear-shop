@@ -1,2 +1,205 @@
 @import url('./colors.css');
 @import url('./typography.css');
+@import url('./reset.css');
+@import url('./nav-main.css');
+@import url('./nav-left-sidebar.css');
+@import url('./product.css');
+@import url('./footer.css');
+
+body {
+    overflow-x: hidden;
+}
+
+/* Carousel Starts */
+
+.primary-carousel {
+    margin: 2rem auto;
+}
+
+.carousel-body {
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.carousel-btn-prev,
+.carousel-btn-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -1.8rem;
+    padding: 1rem;
+    color: var(--color-grey);
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: 0.6s ease;
+    border-radius: 0.2rem;
+    user-select: none;
+}
+
+.carousel-btn-next {
+    right: 0;
+    border-radius: 0.2rem;
+}
+
+.carousel-btn-prev:hover,
+.carousel-btn-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-body-text {
+    color: var(--color-grey);
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    background-color: var(--color-yellow);
+}
+
+.carousel-button {
+    position: absolute;
+    margin-top: 5rem;
+    background-color: transparent;
+    border: none;
+}
+
+.carousel-btn-link {
+    background-color: var(--color-grey);
+    color: var(--primary-bg);
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.carousel-btn-link:hover {
+    background-color: var(--primary-bg);
+    color: var(--color-grey);
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .6
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .6
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* Carousel Ends */
+
+.primary-body {
+    background-color: var(--color-grey);
+    padding: 2rem 0.5rem;
+}
+
+.primary-body-heading {
+    text-align: center;
+    color: var(--primary-bg);
+    padding: 1rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid var(--color-grey-light);
+    padding: 1.5rem;
+    border-radius: 0.4rem;
+    background-color: var(--color-grey-light);
+    position: relative;
+    margin: 1rem auto;
+}
+
+.card-body-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body {
+    margin: 1rem auto;
+}
+
+.card-buttons button {
+    background-color: transparent;
+    border: 1px solid var(--color-grey);
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+}
+
+.card-buttons .card-btn-buy {
+    background-color: var(--color-yellow);
+    border: 1px solid var(--color-grey);
+    
+} 
+
+.card-badge {
+    position: absolute;
+    top: 1rem;
+    left: -1rem;
+    background-color: var(--color-red-accent);
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    color: var(--primary-bg);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) { 
+    
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-button {
+        margin-top: 8rem;
+    }
+
+    .carousel-body-text {
+        width: 90%;
+        font-size: 0.875rem;
+    }
+
+    .carousel-btn-link {
+        font-size: 0.875rem;
+    }
+
+    .primary-body {
+        padding: 1rem;
+    }
+
+    .primary-body-heading {
+        font-weight: 400;
+
+    }
+}

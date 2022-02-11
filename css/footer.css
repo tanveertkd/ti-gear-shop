@@ -1,0 +1,24 @@
+/* Footer */
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-socials-list {
+    display: flex;
+}
+
+.footer-socials-list {
+    padding: 0;
+}
+
+.footer-socials-list li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.footer-socials-list i.social-icn {
+    color: var(--color-hover-grey);
+}

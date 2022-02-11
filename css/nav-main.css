@@ -20,6 +20,7 @@
 }
 
 /* Nav middle */
+
 .nav-main-middle-icn {
     height: 24px;
     width: 24px;
@@ -56,4 +57,17 @@
     border: 1px solid var(--color-grey);
     padding: 0.5rem 1rem;
     border-radius: 0.2rem;
+}
+
+.nav-btn-login:hover {
+    background-color: var(--color-grey);
+    color: var(--primary-bg);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .nav-item-search-input[type=text] {
+        display: none;
+    }
 }

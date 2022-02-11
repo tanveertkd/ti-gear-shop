@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TI | Product</title>
+
+    <!-- Google fonts material icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <!-- <link rel="stylesheet" href="../css/nav-main.css" /> -->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <!-- Primaruy container / body wrapper -->
+    <div class="primary-container">
+        <nav class="nav-main">
+            <!-- Nav left -->
+            <ul class="nav-main-left nav-main-ul">
+                <li class="nav-main-li">
+                    <a href="../index.html" class="nav-main-item">TI</a>
+                </li>
+            </ul>
+
+            <!-- Nav middle -->
+            <ul class="nav-main-middle nav-main-ul">
+                <li class="nav-main-li">
+                    <label for="nav-main-search" class="nav-item-search">
+                        <i class="fa-solid fa-magnifying-glass nav-main-middle-icn"></i>
+                        <input class="nav-item-search-input" type="text" placeholder="Looking for something?"
+                            name="nav-search" />
+                    </label>
+                </li>
+            </ul>
+
+            <!-- Nav right -->
+            <ul class="nav-main-right nav-main-ul">
+                <li class="nav-main-li">
+                    <a href="#" class="nav-main-item nav-btn-login">Login</a>
+                </li>
+                <li class="nav-main-li">
+                    <a href="#" class="nav-main-item">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </li>
+                <li class="nav-main-li">
+                    <a href="#" class="nav-main-item">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Nav main ends -->
+    
+        <!-- Nav Sidebar Starts -->
+        
+        <div class="primary-product-body">
+            <div class="nav-sidebar-container">
+            
+                <!-- Section 1 -->
+                <ul class="nav-sidebar-ul nav-section-1">
+                    <li class="sidebar-header">
+                        Filters
+                    </li>
+                    <li class="sidebar-header">
+                        Clear
+                    </li>
+                </ul>
+    
+                <!-- Section 2 -->
+                <ul class="nav-sidebar-ul">
+                    <li class="sidebar-header">
+                        Price
+                    </li>
+    
+                    <li class="sidebar-item">
+                        <div class="slider-container">
+                            <div class="slider-values">
+                                <p>100</p>
+                                <p>10,000</p>
+                            </div>
+                            <div class="slider">
+                              <input type="range" min="100" max="10000" value="100" class="slider" />
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+    
+                <!-- Section 3 -->
+                <ul class="nav-sidebar-ul">
+                    <li class="sidebar-header">
+                        Category
+                    </li>
+                    <li class="sidebar-item">
+                        <div class="sidebar-item-checkbox">
+                            <input type="checkbox" id="sidebar-cb" value="mens">
+                            <label for="sidebar-cb"> Men's Clothing</label>
+                        </div>
+                    </li>
+                    <li class="sidebar-item">
+                        <div class="sidebar-item-checkbox">
+                            <input type="checkbox" id="sidebar-cb" value="womens">
+                            <label for="sidebar-cb"> Women's Clothing</label>
+                        </div>
+                    </li>
+                </ul>
+    
+                <!-- Section 4 -->
+                <ul class="nav-sidebar-ul">
+                    <li class="sidebar-header">
+                        Rating
+                    </li>
+    
+                    <li class="sidebar-item">
+                        <div class="sidebar-item-rating">
+                            <input type="radio" id="sidebar-radio" name="rating-radio">
+                            <label for="sidebar-radio"> 4 Stars & higher</label>
+                        </div>
+                    </li>
+                    <li class="sidebar-item">
+                        <div class="sidebar-item-rating">
+                            <input type="radio" id="sidebar-radio" name="rating-radio">
+                            <label for="sidebar-radio"> 3 Stars & higher</label>
+                        </div>
+                    </li>
+                    <li class="sidebar-item">
+                        <div class="sidebar-item-rating">
+                            <input type="radio" id="sidebar-radio" name="rating-radio">
+                            <label for="sidebar-radio"> 2 Stars & higher</label>
+                        </div>
+                    </li>
+                    <li class="sidebar-item">
+                        <div class="sidebar-item-rating">
+                            <input type="radio" id="sidebar-radio" name="rating-radio">
+                            <label for="sidebar-radio"> 1 Star & higher</label>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Section 5 -->
+                <ul class="nav-sidebar-ul">
+                    <li class="sidebar-header">
+                        Sort By
+                    </li>
+        
+                    <li class="sidebar-item">
+                        <div class="sidebar-item-sort">
+                            <input type="radio" id="sidebar-radio" name="sort-radio">
+                            <label for="sidebar-radio"> Price - Low to High</label>
+                        </div>
+                    </li>
+                    
+                    <li class="sidebar-item">
+                        <div class="sidebar-item-sort">
+                            <input type="radio" id="sidebar-radio" name="sort-radio">
+                            <label for="sidebar-radio"> Price - High to Low</label>
+                        </div>
+                    </li>
+                </ul>
+        
+                <!-- Nav Sidebar Ends -->
+            </div>
+    
+            <!-- Product Body Starts -->
+    
+            <div class="product-body-container">
+
+                <div class="product-body-header">
+                    Showing All Products (Showing 20 products)
+                </div>
+
+                <div class="sidebar-responsive">
+                    Filters
+                    <i class="fas fa-regular fa-filter filter-icn"></i>
+                </div>
+
+                <div class="product-body-cards">
+                    <div class="product-card">
+                        <div class="card-top-half">
+                            <i class="fas fa-regular fa-heart product-fav-icn fav-active"></i>
+                            <img src="../assets/carousel/jacket.svg" alt="product body asset" class="product-body-asset" />
+                            <div class="card-top-half-text">
+                                <p class="product-item-title">Mens Premium Jacket</p>
+                                <p class="product-item-price">Rs 2000</p>
+                            </div>
+                        </div>
+                        <button class="product-item-cta product-cta-active">Go to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-top-half">
+                            <i class="fa-regular fa-heart product-fav-icn"></i>
+                            <img src="../assets/carousel/jacket.svg" alt="product body asset" class="product-body-asset" />
+                            <div class="card-top-half-text">
+                                <p class="product-item-title">Mens Premium Jacket</p>
+                                <p class="product-item-price">Rs 2000</p>
+                            </div>
+                        </div>
+                        <button class="product-item-cta">Go to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-top-half">
+                            <i class="fa-regular fa-heart product-fav-icn"></i>
+                            <img src="../assets/carousel/jacket.svg" alt="product body asset" class="product-body-asset" />
+                            <div class="card-top-half-text">
+                                <p class="product-item-title">Mens Premium Jacket</p>
+                                <p class="product-item-price">Rs 2000</p>
+                            </div>
+                        </div>
+                        <button class="product-item-cta">Go to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-top-half">
+                            <i class="fa-regular fa-heart product-fav-icn"></i>
+                            <img src="../assets/carousel/jacket.svg" alt="product body asset" class="product-body-asset" />
+                            <div class="card-top-half-text">
+                                <p class="product-item-title">Mens Premium Jacket</p>
+                                <p class="product-item-price">Rs 2000</p>
+                            </div>
+                        </div>
+                        <button class="product-item-cta">Go to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-top-half">
+                            <i class="fa-regular fa-heart product-fav-icn"></i>
+                            <img src="../assets/carousel/jacket.svg" alt="product body asset" class="product-body-asset" />
+                            <div class="card-top-half-text">
+                                <p class="product-item-title">Mens Premium Jacket</p>
+                                <p class="product-item-price">Rs 2000</p>
+                            </div>
+                        </div>
+                        <button class="product-item-cta">Go to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-top-half">
+                            <i class="fa-regular fa-heart product-fav-icn"></i>
+                            <img src="../assets/carousel/jacket.svg" alt="product body asset" class="product-body-asset" />
+                            <div class="card-top-half-text">
+                                <p class="product-item-title">Mens Premium Jacket</p>
+                                <p class="product-item-price">Rs 2000</p>
+                            </div>
+                        </div>
+                        <button class="product-item-cta">Go to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-top-half">
+                            <i class="fa-regular fa-heart product-fav-icn"></i>
+                            <img src="../assets/carousel/jacket.svg" alt="product body asset" class="product-body-asset" />
+                            <div class="card-top-half-text">
+                                <p class="product-item-title">Mens Premium Jacket</p>
+                                <p class="product-item-price">Rs 2000</p>
+                            </div>
+                        </div>
+                        <button class="product-item-cta">Go to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-top-half">
+                            <i class="fa-regular fa-heart product-fav-icn"></i>
+                            <img src="../assets/carousel/jacket.svg" alt="product body asset" class="product-body-asset" />
+                            <div class="card-top-half-text">
+                                <p class="product-item-title">Mens Premium Jacket</p>
+                                <p class="product-item-price">Rs 2000</p>
+                            </div>
+                        </div>
+                        <button class="product-item-cta">Go to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-top-half">
+                            <i class="fa-regular fa-heart product-fav-icn"></i>
+                            <img src="../assets/carousel/jacket.svg" alt="product body asset" class="product-body-asset" />
+                            <div class="card-top-half-text">
+                                <p class="product-item-title">Mens Premium Jacket</p>
+                                <p class="product-item-price">Rs 2000</p>
+                            </div>
+                        </div>
+                        <button class="product-item-cta">Go to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-top-half">
+                            <i class="fa-regular fa-heart product-fav-icn"></i>
+                            <img src="../assets/carousel/jacket.svg" alt="product body asset" class="product-body-asset" />
+                            <div class="card-top-half-text">
+                                <p class="product-item-title">Mens Premium Jacket</p>
+                                <p class="product-item-price">Rs 2000</p>
+                            </div>
+                        </div>
+                        <button class="product-item-cta">Go to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-top-half">
+                            <i class="fa-regular fa-heart product-fav-icn"></i>
+                            <img src="../assets/carousel/jacket.svg" alt="product body asset" class="product-body-asset" />
+                            <div class="card-top-half-text">
+                                <p class="product-item-title">Mens Premium Jacket</p>
+                                <p class="product-item-price">Rs 2000</p>
+                            </div>
+                        </div>
+                        <button class="product-item-cta">Go to Cart</button>
+                    </div>
+                </div>
+    
+            <!-- Product Body Ends -->
+        </div>
+    </div>
+
+    <!-- Primary container ends -->
+    
+    <!-- Footer begins -->
+    
+    <footer class="footer">
+        <ul class="footer-socials-list">
+            <li>
+                <a class="footer-links" href="https://www.github.com/tanveertkd" target="_blank"><i class="fab fa-github fa-lg social-icn"></i></a>
+            </li>
+            <li>
+                <a class="footer-links" href="https://www.linkedin.com/in/tanveer-hazarika/" target="_blank"><i class="fab fa-linkedin fa-lg social-icn"></i></a>
+            </li>
+            <li>
+                <a class="footer-links" href="https://twitter.com/HazarikaTanveer" target="_blank"><i class="fab fa-twitter fa-lg social-icn"></i></a>
+            </li>
+
+            <li>
+                <a class="footer-links" href="https://tanveerswebsite.netlify.app/" target="_blank"><i class="fas fa-globe fa-lg social-icn"></i></a>
+            </li>
+        </ul>
+    </footer>
+    
+    <!-- Footer Ends -->
+</body>
+</html>

@@ -9,7 +9,12 @@
 
     <!-- Google fonts material icons -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <!--TI-UI stylesheet-->
+    <!-- <link rel="stylesheet" href="https://ti-ui.netlify.app/css/components.css" /> -->
     <link rel="stylesheet" href="../ti-gear-shop/css/nav-main.css" />
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -29,9 +34,7 @@
                 <li class="nav-main-li">
                     <label for="nav-main-search" class="nav-item-search">
                         <i class="fa-solid fa-magnifying-glass nav-main-middle-icn"></i>
-                        <input class="nav-item-search-input" 
-                            type="text" 
-                            placeholder="Looking for something?" 
+                        <input class="nav-item-search-input" type="text" placeholder="Looking for something?"
                             name="nav-search" />
                     </label>
                 </li>
@@ -55,6 +58,102 @@
             </ul>
         </nav>
     </div>
-</body>
 
+    <!-- Home main section -->
+    <div class="primary-container-body">
+        <div class="primary-carousel">
+            <div class="carousel-body">
+                <div class="carousel-slide fade">
+                    <img src="./assets/carousel/jacket.svg" alt="carousel image" class="carousel-img" />
+                    <p class="carousel-body-text">Buy Jackets With Exciting Offers!</p>
+                    <button type="submit" class="carousel-button">
+                        <a href="./routes/product.html" class="carousel-btn-link">Goto Offers</a>
+                    </button>
+                </div>
+                <div class="carousel-slide fade">
+                    <img src="./assets/carousel/jacket.svg" alt="carousel image" class="carousel-img" />
+                    <p class="carousel-body-text">2 Buy Jackets With Exciting Offers!</p>
+                    <button type="submit" class="carousel-button">
+                        <a href="./routes/product.html" class="carousel-btn-link">Goto Offers</a>
+                    </button>
+                </div>
+                <div class="carousel-slide fade">
+                    <img src="./assets/carousel/jacket.svg" alt="carousel image" class="carousel-img" />
+                    <p class="carousel-body-text">3 Buy Jackets With Exciting Offers!</p>
+                    <button type="submit" class="carousel-button">
+                        <a href="./routes/product.html" class="carousel-btn-link">Goto Offers</a>
+                    </button>
+                </div>
+
+                <a class="carousel-btn-prev">&#10094;</a>
+                <a class="carousel-btn-next">&#10095;</a>
+            </div>
+        </div>
+
+        <div class="primary-body">
+
+            <h3 class="primary-body-heading">New Winter Collection Is Here!</h3>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-container card-img-horizontal">
+                        <img src="./assets/carousel/jacket.svg" alt="card asset" class="card-image" />
+                        <div class="card-body-content">
+                            <h3 class="card-head">Padded Jackets</h3>
+                            <div>
+                                <p class="card-body">
+                                    New arrivals at low prices. Hurry!
+                                </p>
+                                <div class="card-buttons">
+                                    <button class="card-btn-buy">Buy Now</button>
+                                    <button class="card-btn-add">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="card-badge">JUST IN!</span>
+                </div>
+
+                <div class="card">
+                    <div class="card-container card-img-horizontal">
+                        <img src="./assets/carousel/jacket.svg" alt="card asset" class="card-image" />
+                        <div class="card-body-content">
+                            <h3 class="card-head">Padded Jackets</h3>
+                            <div>
+                                <p class="card-body">
+                                    New arrivals at low prices. Hurry!
+                                </p>
+                                <div class="card-buttons">
+                                    <button class="card-btn-buy">Buy Now</button>
+                                    <button class="card-btn-add">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="card-badge">JUST IN!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <ul class="footer-socials-list">
+            <li>
+                <a class="footer-links" href="https://www.github.com/tanveertkd" target="_blank"><i class="fab fa-github fa-lg social-icn"></i></a>
+            </li>
+            <li>
+                <a class="footer-links" href="https://www.linkedin.com/in/tanveer-hazarika/" target="_blank"><i class="fab fa-linkedin fa-lg social-icn"></i></a>
+            </li>
+            <li>
+                <a class="footer-links" href="https://twitter.com/HazarikaTanveer" target="_blank"><i class="fab fa-twitter fa-lg social-icn"></i></a>
+            </li>
+
+            <li>
+                <a class="footer-links" href="https://tanveerswebsite.netlify.app/" target="_blank"><i class="fas fa-globe fa-lg social-icn"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script type="text/javascript" src="./js/carousel.js"></script>
+</body>
 </html>
