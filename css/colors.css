@@ -1,11 +1,17 @@
 :root {
+    /* Main pallette */
     --primary-bg: #F5F5F5;
     --color-grey: #343232;
-    /* --color-light-shadow: #f8cfa9; */
     --color-hover-grey: #424242;
-    --color-hover-light-grey: #dbd7d7;
+    --color-light-grey: #bdbdbd;
+    --color-lighter-grey: #dbd7d7;
     --color-highlight-orange: #ff3d00;
-    --color-text-lighter-grey: #bdbdbd;
+
+    --color-grey-light: #E6E6EA;
+    --color-grey-lighter: #F4F4F8;
+    --color-blue: #009FB7;
+    --color-yellow: #FED766;
+    --color-red-accent: #FE4A49;
 
     /* alert colors */
     --color-alert-primary: #2196f3;
