@@ -64,6 +64,11 @@
     color: var(--primary-bg);
 }
 
+.nav-active {
+    background-color: var(--color-grey);
+    color: var(--primary-bg);
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
