@@ -1,0 +1,21 @@
+.wishlist-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.wishlist-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card:hover {
+    box-shadow: 0 0 10px var(--color-light-grey);
+}
+
+@media screen and (max-width: 1024px) {
+    .wishlist-header {
+        padding: 1.5rem 0.5rem 0 0.5rem; 
+    }
+}

@@ -7,6 +7,7 @@
 @import url('./footer.css');
 @import url('./signin-signup.css');
 @import url('./cart.css');
+@import url('./wishlist.css');
 
 body {
     overflow-x: hidden;

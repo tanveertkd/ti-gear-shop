@@ -27,6 +27,8 @@
     margin: 1rem 2rem 1rem 0;
     border: 1px solid var(--color-grey-light);
     border-radius: 0.4rem;
+    background-color: var(--color-white);
+    cursor: pointer;
 }
 
 .card-top-half {
@@ -66,6 +68,7 @@
     border: none;
     font-weight: bold;
     color: var(--color-grey-lighter);
+    cursor: pointer;
 }
 
 /* Media Queries */
