@@ -6,6 +6,7 @@
 @import url('./product.css');
 @import url('./footer.css');
 @import url('./signin-signup.css');
+@import url('./cart.css');
 
 body {
     overflow-x: hidden;
