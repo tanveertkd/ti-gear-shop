@@ -6,7 +6,7 @@ As of now this ia a WIP. Functionalities have not been implemented yet.
 # Pages ready right now
 [Home](https://ti-gear-shop.netlify.app/)  
 [Products](https://ti-gear-shop.netlify.app/routes/product.html)  
-[Product Detail](https://ti-gear-shop.netlify.app/routes/product-item.html)
+[Product Detail](https://ti-gear-shop.netlify.app/routes/product-item.html)  
 [Cart](https://ti-gear-shop.netlify.app/routes/cart.html)  
 [Wishlist](https://ti-gear-shop.netlify.app/routes/wishlist.html)  
 [Login](https://ti-gear-shop.netlify.app/routes/login.html)  
