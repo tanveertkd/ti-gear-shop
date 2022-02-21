@@ -3,6 +3,14 @@ TI Gear Shop is an e-commerce website to sell martial arts gear.
 
 As of now this ia a WIP. Functionalities have not been implemented yet.
 
+# Pages ready right now
+[Home](https://ti-gear-shop.netlify.app/)  
+[Products](https://ti-gear-shop.netlify.app/routes/product.html)  
+[Cart](https://ti-gear-shop.netlify.app/routes/cart.html)  
+[Wishlist](https://ti-gear-shop.netlify.app/routes/wishlist.html)  
+[Login](https://ti-gear-shop.netlify.app/routes/login.html)  
+[Sign Up](https://ti-gear-shop.netlify.app/routes/signup.html)
+
 # Screenshots
 
 ![Home](https://raw.githubusercontent.com/tanveertkd/ti-gear-shop/documentation/assets/README/readme/1.png)  
