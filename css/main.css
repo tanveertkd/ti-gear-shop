@@ -8,6 +8,7 @@
 @import url('./signin-signup.css');
 @import url('./cart.css');
 @import url('./wishlist.css');
+@import url('./product-item.css');
 
 body {
     overflow-x: hidden;
