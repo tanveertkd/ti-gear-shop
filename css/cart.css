@@ -212,7 +212,6 @@
     }
 
     .cart-item-card {
-        /* flex-direction: column; */
         width: fit-content;
         margin: 1rem;
     }
