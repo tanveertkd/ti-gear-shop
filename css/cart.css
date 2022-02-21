@@ -208,13 +208,32 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 1rem;
+        padding: 0;
     }
 
     .cart-item-card {
-        flex-direction: column;
-        width: max-content;
+        width: fit-content;
         margin: 1rem;
+    }
+
+    .cart-item-img {
+        max-width: 30%;
+    }
+
+    .item-name {
+        font-size: 1rem;
+    }
+
+    .item-price,
+    .item-discount,
+    .item-quantity,
+    .item-qty-btn,
+    .qty {
+        font-size: 0.875rem;
+    }
+
+    .item-card-btn {
+        font-size: 0.75rem;
     }
 
     .cart-summary {
